@@ -1,7 +1,6 @@
 # Objectives
-The objective of the project is to monitor a user's email account every ten minutes for new emails. If there are new emails, they should be marked read and all the attachments should be downloaded in the local system. 
-
-After the attachements are downloaded on the local system, they should be automatically uploaded to the user's dropbox account as well. 
+This project is to automate the process of downloading all the important attachments from Gmail and creating a back-up of them on DropBox after a specific time interval. It has various use cases. For small organisations that are hiring, all the resumes can be safely stored on the local systems making sure that not even one resume is left out. I plan to add customised features where the resumes can be shortlisted according to the job roles.
+The objective of the project is to monitor a user's email account every ten minutes for new emails. If there are new emails, they should be marked read and all the attachments should be downloaded in the local system. After the attachements are downloaded on the local system, they should be automatically uploaded to the user's dropbox account as well in order to create a back-up.
 
 # Steps for Execution
 ### Step 1 - Enable the Gmail API
@@ -34,4 +33,4 @@ After, this is done install dropbox.
  pip install dropbox
  ```
 
-The next step is to upload the files to the specified location.
+The next step is to upload the files to the specified location. The files from the local system are uploaded into the dropbox account.
