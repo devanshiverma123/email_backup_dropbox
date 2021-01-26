@@ -2,6 +2,8 @@
 This project is to automate the process of downloading all the important attachments from Gmail and creating a back-up of them on DropBox after a specific time interval. It has various use cases. For small organisations that are hiring, all the resumes can be safely stored on the local systems making sure that not even one resume is left out. I plan to add customised features where the resumes can be shortlisted according to the job roles.
 The objective of the project is to monitor a user's email account every ten minutes for new emails. If there are new emails, they should be marked read and all the attachments should be downloaded in the local system. After the attachements are downloaded on the local system, they should be automatically uploaded to the user's dropbox account as well in order to create a back-up.
 
+The use of Google APIs has made it really easy to use their applications and make it a part of our own projects. Capitalizing on the power of these applications, we can come up with our own use cases.
+
 # Steps for Execution
 ### Step 1 - Enable the Gmail API
  Go to [Python Quickstart](https://developers.google.com/gmail/api/quickstart/python) the first time you start the project. Using the 'Enable the Gmail API button, you can get the credentials on the local system. Specify the prroject name and other realted options. Also, authenticate the gmail account through which you want to start this project. Add these credentials to the working directory where the project is being developed. Using this credentials, we can add multiple users to access our project.
