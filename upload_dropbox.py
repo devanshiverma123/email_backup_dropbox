@@ -5,7 +5,8 @@ from dropbox.files import WriteMode
 from dropbox.exceptions import ApiError, AuthError
 
 def upload_dropbox(local_directory, dropbox_destination):
-    TOKEN = 'Iqm59MFX1zsAAAAAAAAAAZAwoWHrcgrXb8gzT4gib4F-_UY770drBCInue79nN7G'
+    #specify token
+    TOKEN = ''
     dbx = dropbox.Dropbox(TOKEN)
     try:
             dbx.users_get_current_account()
