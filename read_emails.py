@@ -187,10 +187,10 @@ class gmailApi(object):
 def main():
     path = __file__
     file_path = os.path.abspath(os.path.join(path, os.pardir))
-    account_name = ['ottosero','personal']
+    account_name = ['professional','personal']
     credential_json = "credentials1.json"
 
-    accounts = [['ottosero',os.path.join(file_path,credential_json), os.path.join(file_path, "token", "storage-"+account_name[0]+".json")],
+    accounts = [['professional',os.path.join(file_path,credential_json), os.path.join(file_path, "token", "storage-"+account_name[0]+".json")],
      ['personal',os.path.join(file_path,credential_json), os.path.join(file_path,"token", "storage-"+account_name[1]+".json")]]
 
     for account in accounts:
